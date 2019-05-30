@@ -1,23 +1,22 @@
 
 public class Employee {
 	private int empid;
-	private int empname;
-	public Employee(int empid, int empname) {
-		super();
-		this.empid = empid;
-		this.empname = empname;
-	}
+	private String empname;
+	
 	public int getEmpid() {
 		return empid;
 	}
 	public void setEmpid(int empid) {
 		this.empid = empid;
 	}
-	public int getEmpname() {
+	public String getEmpname() {
 		return empname;
 	}
-	public void setEmpname(int empname) {
+	public void setEmpname(String empname) {
 		this.empname = empname;
 	}
-
+	
+	
+	
+	
 }
